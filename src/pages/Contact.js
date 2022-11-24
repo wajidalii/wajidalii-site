@@ -7,6 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons/faMapMarkerAlt';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 import Main from '../layouts/Main';
 // import EmailLink from '../components/Contact/EmailLink';
@@ -26,9 +27,12 @@ const Contact = () => (
       </header>
       <div className="email-at">
         <p>Feel free to get in touch. You can contact me at: </p>
-        {/* <EmailLink /> */}
-        <a href="tel:+923070401940" rel="noreferrer" target="_blank">
-          <FontAwesomeIcon icon={faPhone} /> (+92) 307 0401940
+        <a href="tel:+923067071981" rel="noreferrer" target="_blank">
+          <FontAwesomeIcon icon={faPhone} /> (+92) 306 7071981
+        </a>
+        <br />
+        <a href="https://wa.me/923067071981?text=%Hi" rel="noreferrer" target="_blank">
+          <FontAwesomeIcon icon={faWhatsapp} /> (+92) 306 7071981
         </a>
         <br />
         <a href="mailto:wajidalii.me@gmail.com" rel="noreferrer" target="_blank">
@@ -44,7 +48,7 @@ const Contact = () => (
       <br />
       <ul className="actions">
         <li>
-          <a href="https://www.linkedin.com/in/wajidalii" rel="noreferrer" target="_blank" className="button"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/wajid-alii" rel="noreferrer" target="_blank" className="button"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
         </li>
         <li>
           <a href="https://www.github.com/wajidalii" rel="noreferrer" target="_blank" className="button"><FontAwesomeIcon icon={faGithub} /> Github</a>
