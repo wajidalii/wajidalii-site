@@ -7,13 +7,13 @@ const courses = [
   },
   {
     title: 'React JavaScript',
-    number: 'Colt-Steele',
+    number: '',
     link: 'https://www.udemy.com/',
     university: 'Udemy',
   },
   {
     title: 'PHP Laravel Development',
-    number: 'Colt-Steele',
+    number: '',
     link: 'https://www.udemy.com/',
     university: 'Udemy',
   },
