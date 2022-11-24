@@ -67,7 +67,7 @@ const Index = () => (
           <Link to="/Projects" className="button">Projects</Link>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/wajidalii" rel="noreferrer" target="_blank" className="button">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/wajid-alii" rel="noreferrer" target="_blank" className="button">LinkedIn</a>
         </li>
         <li>
           <a href="https://www.github.com/wajidalii" rel="noreferrer" target="_blank" className="button">Github</a>
