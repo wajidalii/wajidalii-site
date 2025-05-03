@@ -1,46 +1,93 @@
-// TODO: Add Athletic Skills, Office Skills,
-// Data Engineering, Data Science, ML Engineering, ... ?
-
 const skills = [
   {
-    title: 'Javascript',
+    title: 'JavaScript',
     competency: 4,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
-    title: 'React',
+    title: 'TypeScript',
     competency: 3,
+    category: ['Web Development', 'Languages', 'Javascript'],
+  },
+  {
+    title: 'React',
+    competency: 4,
+    category: ['Web Development', 'Javascript', 'Frontend'],
+  },
+  {
+    title: 'Redux',
+    competency: 4,
     category: ['Web Development', 'Javascript'],
   },
   {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
-  },
-  {
-    title: 'Amazon Web Services',
+    title: 'HTML/CSS',
     competency: 4,
-    category: ['Web Development', 'Tools'],
+    category: ['Web Development', 'Languages'],
   },
   {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
+    title: 'Node.js',
+    competency: 3,
+    category: ['Web Development', 'Javascript', 'Backend'],
   },
   {
-    title: 'MongoDB',
+    title: 'Express.js',
+    competency: 4,
+    category: ['Web Development', 'Javascript', 'Backend'],
+  },
+  {
+    title: '.NET Core',
+    competency: 3,
+    category: ['Web Development', 'C#', 'Frontend', 'Backend'],
+  },
+  {
+    title: 'Laravel',
+    competency: 3,
+    category: ['Web Development', 'PHP', 'Frontend', 'Backend'],
+  },
+  {
+    title: 'PHP',
+    competency: 3,
+    category: ['Web Development', 'Languages', 'Backend'],
+  },
+  {
+    title: 'C#',
+    competency: 3,
+    category: ['Languages', 'Web Development', 'Game Development', 'Backend'],
+  },
+  {
+    title: 'Java',
+    competency: 3,
+    category: ['Languages', 'Spring Boot', 'Android Development'],
+  },
+  {
+    title: 'C++',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'Bash',
+    competency: 3,
+    category: ['Tools', 'Languages', 'DevOps'],
+  },
+  {
+    title: 'MySQL',
+    competency: 4,
+    category: ['Web Development', 'Databases'],
+  },
+  {
+    title: 'Microsoft SQL Server',
     competency: 3,
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'ElasticSearch',
+    title: 'Oracle',
     competency: 2,
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'PostgreSQL/SQLite3/SQL',
-    competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
+    title: 'Firebase',
+    competency: 3,
+    category: ['Web Development', 'Databases'],
   },
   {
     title: 'Git',
@@ -48,69 +95,62 @@ const skills = [
     category: ['Tools'],
   },
   {
-    title: 'Google Cloud Compute',
+    title: 'Linux',
+    competency: 3,
+    category: ['DevOps', 'Tools'],
+  },
+  {
+    title: 'PM2',
+    competency: 3,
+    category: ['DevOps', 'Tools'],
+  },
+  {
+    title: 'Ngrok',
+    competency: 3,
+    category: ['DevOps', 'Tools'],
+  },
+  {
+    title: 'Nginx',
+    competency: 3,
+    category: ['DevOps', 'Tools'],
+  },
+  {
+    title: 'Unity3D',
+    competency: 3,
+    category: ['Game Development', 'C#'],
+  },
+  {
+    title: 'Salesforce',
     competency: 2,
-    category: ['Tools', 'Web Development'],
+    category: ['Web Development', 'CRM', 'Apex'],
   },
   {
-    title: 'Numpy',
+    title: 'Android Development',
     competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python'],
+    category: ['Mobile Development', 'Java'],
   },
   {
-    title: 'Tensorflow + Keras',
-    competency: 3,
-    category: ['Data Science', 'Python'],
+    title: 'Public Speaking',
+    competency: 4,
+    category: ['Office Skills', 'Communication', 'Teamwork', 'Soft Skills'],
   },
   {
-    title: 'Jupyter',
-    competency: 3,
-    category: ['Data Science', 'Python'],
+    title: 'Mentoring',
+    competency: 4,
+    category: ['Office Skills', 'Communication', 'Teamwork', 'Soft Skills'],
   },
   {
-    title: 'Typescript',
-    competency: 2,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    title: 'Team Collaboration',
+    competency: 4,
+    category: ['Office Skills', 'Teamwork', 'Problem Solving'],
   },
   {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'Python',
+    title: 'Problem Solving',
     competency: 5,
-    category: ['Languages', 'Python'],
-  },
-  {
-    title: 'C++',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Pandas',
-    competency: 5,
-    category: ['Data Engineering', 'Data Science', 'Python'],
-  },
-  {
-    title: 'Matplotlib',
-    competency: 3,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    category: ['Office Skills', 'Problem Solving'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
-// this is a list of colors that I like. The length should be == to the
-// number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
   '#6968b3',
   '#37b1f5',
@@ -123,6 +163,9 @@ const colors = [
   '#d75858',
   '#747fff',
   '#64cb7b',
+  '#FFA500',
+  '#008000',
+  '#800080',
 ];
 
 const categories = [
