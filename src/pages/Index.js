@@ -8,16 +8,17 @@ import Main from '../layouts/Main';
 
 const Index = () => (
   <Main
-    description={"Wajid Ali's personal website. Saudi Arabian based Full-Stack developer."}
+    description={"Wajid Ali's personal website. Saudi Arabian based Senior Full-Stack Engineer with 4+ years of experience."}
   >
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/">Who Am I?</Link></h2>
           <p>
-            I am a full-stack web developer with a passion for building smart and
-            easy-to-use applications. I am a perfectionist with a sense of detail
-            and ensure quality and high professionalism in everything I do. One word – programmer.
+            I'm a Senior Full-Stack Engineer with 4+ years of expertise in building scalable,
+            distributed web applications. I specialize in solving complex challenges through
+            innovative engineering and delivering high-performance solutions. Passionate about
+            mentoring junior developers and optimizing systems for maximum efficiency.
           </p>
         </div>
       </header>
@@ -25,33 +26,32 @@ const Index = () => (
         <br />
         <FontAwesomeIcon icon={faPlus} /> Frontend
         <p className="technologies">
-          JavaScript, TypeScript, React, Next.js, Hooks, Redux
+          JavaScript, TypeScript, React, Redux, HTML5/CSS3
         </p>
         <br />
         <FontAwesomeIcon icon={faPlus} /> Backend
         <p className="technologies">
-          Node.js, Express.js, Rest, GraphQL
+          Node.js, Express.js, .NET Core, Laravel, PHP, REST APIs
         </p>
         <br />
         <FontAwesomeIcon icon={faPlus} /> Databases
         <p className="technologies">
-          MongoDB, Firebase Firestore, Oracle, MySQL
+          MySQL, Microsoft SQL Server, Oracle, Firebase
         </p>
         <br />
-        <FontAwesomeIcon icon={faPlus} /> Design
+        <FontAwesomeIcon icon={faPlus} /> DevOps & Infrastructure
         <p className="technologies">
-          Sass, Ant Design, Material-UI
+          Linux, Nginx, PM2, Ngrok, Bash Scripting, Crontab
         </p>
         <br />
-        <FontAwesomeIcon icon={faPlus} /> Others
+        <FontAwesomeIcon icon={faPlus} /> Other Skills
         <p className="technologies">
-          Game Development, Android Application Development, Python
+          Unity3D Game Development, Android Development, Salesforce
         </p>
         <br />
         <FontAwesomeIcon icon={faPlus} /> Tools
         <p className="technologies">
-          VS Code, GitHub, GitLab, Git, Slack, Trello,
-          Postman, Unity3D, Android Studio
+          VS Code, Visual Studio, Git, GitHub, Postman, Android Studio
         </p>
       </p>
       <br />
@@ -67,7 +67,7 @@ const Index = () => (
           <Link to="/Projects" className="button">Projects</Link>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/wajid-alii" rel="noreferrer" target="_blank" className="button">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/wajid-alli" rel="noreferrer" target="_blank" className="button">LinkedIn</a>
         </li>
         <li>
           <a href="https://www.github.com/wajidalii" rel="noreferrer" target="_blank" className="button">Github</a>
@@ -76,7 +76,6 @@ const Index = () => (
           <Link to="/contact" className="button">Contact</Link>
         </li>
       </ul>
-      {/* <p> Source available <a href="https://github.com/wajidalii/" rel="noreferrer" target="_blank">here</a>.</p> */}
     </article>
   </Main>
 );
