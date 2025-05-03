@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 import Main from '../layouts/Main';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Index = () => (
   <Main
