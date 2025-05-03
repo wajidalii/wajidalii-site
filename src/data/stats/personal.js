@@ -27,7 +27,7 @@ const data = [
   {
     key: 'location',
     label: 'Current city',
-    value: 'Lahore, Punjab, Pakistan',
+    value: 'Ras Tanura, Eastern Province, Saudi Arabia',
   },
 ];
 
