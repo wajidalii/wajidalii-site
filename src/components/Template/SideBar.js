@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import ContactIcons from "../Contact/ContactIcons";
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
@@ -16,7 +15,7 @@ const SideBar = () => (
           <h2>Wajid Ali</h2>
         </Link>
         <p>
-          <a href="mailto:wajidalii.me@gmail.com">wajidalii.me@gmail.com</a>
+          <a href="mailto:wajidalli.me@gmail.com">wajidalli.me@gmail.com</a>
         </p>
       </header>
     </section>
@@ -24,67 +23,55 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Wajid. A code-blooded Computer Scientist,{" "}
-        <a
-          href="https://skillcrush.com/blog/front-end-back-end-full-stack/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Full Stack Engineer
-        </a>
-        , and Alumni of{" "}
+        Hi, I'm Wajid. A passionate Full Stack Engineer with 4+ years of expertise in building scalable web applications. Alumni of{" "}
         <a href="https://itu.edu.pk/" rel="noreferrer" target="_blank">
           Information Technology University
         </a>
-        . I live in{" "}
+        . Currently based in{" "}
         <a
-          href="https://en.wikipedia.org/wiki/Lahore"
+          href="https://en.wikipedia.org/wiki/Saudi_Arabia"
           rel="noreferrer"
           target="_blank"
         >
-          Lahore - the city of gardens
+          Saudi Arabia
         </a>
-        . I enjoy learning and creating new things. I&apos;m passionate about{" "}
+        . I specialize in creating high-performance solutions using modern technologies. My passion lies in{" "}
         <a
-          href="https://javascript.info/intro"
+          href="https://react.dev/"
           rel="noreferrer"
           target="_blank"
         >
-          JavaScript
+          React.js
         </a>
         ,{" "}
         <a
-          href="https://medium.com/engineered-publicis-sapient/javascript-es6-es7-es10-where-are-we-8ac044dfd964"
+          href="https://redux.js.org/"
           rel="noreferrer"
           target="_blank"
         >
-          ECMAScript
+          Redux
         </a>
         ,{" "}
-        <a href="https://reactjs.org/" rel="noreferrer" target="_blank">
-          ReactJS
+        <a href="https://expressjs.com/" rel="noreferrer" target="_blank">
+          Express.js
         </a>
         ,{" "}
-        <a href="https://nodejs.org/en/about/" rel="noreferrer" target="_blank">
-          NodeJS
-        </a>
-        ,{" "}
-        <a
-          href="https://www.mongodb.com/why-use-mongodb"
-          rel="noreferrer"
-          target="_blank"
-        >
-          MongoDB
+        <a href="https://dotnet.microsoft.com/" rel="noreferrer" target="_blank">
+          .NET Core
         </a>
         , and{" "}
-        <a
-          href="https://dev.to/andrewbaisden/modern-full-stack-developer-tech-stack-2021-49ij"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Latest Technologies
+        <a href="https://laravel.com/" rel="noreferrer" target="_blank">
+          Laravel
         </a>
-        .
+        . I also enjoy optimizing systems, mentoring junior developers, and implementing DevOps solutions with{" "}
+        <a href="https://www.nginx.com/" rel="noreferrer" target="_blank">
+          Nginx
+        </a>
+        ,{" "}
+        <a href="https://pm2.keymetrics.io/" rel="noreferrer" target="_blank">
+          PM2
+        </a>
+        , and Linux.
       </p>
       <ul className="actions">
         <li>
@@ -98,7 +85,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Wajid Ali <Link to="/">wajidalii.me</Link>.
+        &copy; Wajid Ali <Link to="/">wajidali.netlify.app</Link>.
       </p>
     </section>
   </section>
