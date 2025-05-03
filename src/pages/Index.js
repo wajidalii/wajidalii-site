@@ -67,10 +67,10 @@ const Index = () => (
           <Link to="/Projects" className="button">Projects</Link>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/wajid-alli" rel="noreferrer" target="_blank" className="button">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/wajid-alli" rel="noreferrer" target="_blank" className="button"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
         </li>
         <li>
-          <a href="https://www.github.com/wajidalii" rel="noreferrer" target="_blank" className="button">Github</a>
+          <a href="https://www.github.com/wajidalii" rel="noreferrer" target="_blank" className="button"><FontAwesomeIcon icon={faGithub} /> Github</a>
         </li>
         <li>
           <Link to="/contact" className="button">Contact</Link>
