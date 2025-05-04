@@ -11,7 +11,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/resume">Resume</Link></h2>
-          <p>
+          <div className="resume-actions">
             <a
               href="https://docs.google.com/document/d/1071lpVQSqyoGOCr-p8cDoso6wj_uF_I43K0hnd0tuh0/export?format=pdf"
               target="_blank"
@@ -20,7 +20,7 @@ const Resume = () => (
             >
               Download PDF
             </a>
-          </p>
+          </div>
         </div>
       </header>
 
