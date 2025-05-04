@@ -57,6 +57,11 @@ const Resume = () => (
             href="https://docs.google.com/document/d/1071lpVQSqyoGOCr-p8cDoso6wj_uF_I43K0hnd0tuh0/export?format=pdf"
             target="_blank"
             rel="noopener noreferrer"
+            style={{
+              color: '#1a73e8',
+              fontWeight: '600',
+              textDecoration: 'underline',
+            }}
           >
             Download PDF directly
           </a>
